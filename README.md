@@ -13,10 +13,10 @@ def main():
     simulator = DiceRollingSimulator()
 
     while True:
-        user_input = input("Press 'Enter' to roll the dice or 'q' to quit: ")
+        user_input = input(" Please Press 'Enter' to roll the dice or 'q' to quit: ")
         
         if user_input.lower() == 'q':
-            print("Thanks for using the Dice Rolling Simulator. Goodbye!")
+            print("Thank you for using the Dice Rolling Simulator. Have a good day, Goodbye!")
             break
 
         roll_result = simulator.roll_dice()
